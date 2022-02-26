@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int Pjg;
+	int Lbr;
+	int Tgi;
+	int Ls;
+	cout << "Mencari Luas Persegi Panjang\n"
+		 << endl;
+	cout << "Panjang\t\t\t: ";
+	cin >> Pjg;
+	cout << "Lebar\t\t\t: ";
+	cin >> Lbr;
+	cout << "Tinggi\t\t\t: ";
+	cin >> Tgi;
+	Ls = Pjg * Lbr * Tgi;
+	cout << "==============================(*)";
+	cout << "\nLuas persegi Panjang\t= " << Ls << endl;
+}
