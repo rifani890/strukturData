@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+// Compiler version g++ 6.3.0
+
+int main()
+{
+	int nilai;
+	cout << "\nMasukan Nilai Siswa : ";
+	cin >> nilai;
+	if (nilai == 100)
+	{
+		cout << "==============================\n";
+		cout << "Selamat Nilai anda Telah Sempurna";
+	}
+	else if ((nilai >= 90) && (nilai < 100))
+	{
+		cout << "==============================\n";
+		cout << "Nilai anda Saat ini adalah = A";
+	}
+	else if ((nilai >= 80) && (nilai < 90))
+	{
+		cout << "==============================\n";
+		cout << "Nilai anda Saat ini adalah = B";
+	}
+	else if ((nilai >= 70) && (nilai < 80))
+	{
+		cout << "==============================\n";
+		cout << "Nilai anda Saat ini adalah = C";
+	}
+	else if ((nilai >= 60) && (nilai < 70))
+	{
+		cout << "==============================\n";
+		cout << "Nilai anda Saat ini adalah = D";
+	}
+	else if (nilai <= 60)
+	{
+		cout << "==============================\n";
+		cout << "Nilai anda Saat ini adalah = F";
+	}
+	return 0;
+}
