@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <math.h>
+#include <conio.h>
+
+struct t_titik // nama struktur
+{
+	int x, y; // anggota truktur
+};
+
+int main()
+{ // inisialisasi variabel
+	struct t_titik a, b;
+	double jarak;
+
+	printf("Titik A\n\tKoordinat x\t : ");
+	scanf("%d", &a.x); // masukan nilai
+	printf("\tKoordinat y\t : ");
+	scanf("%d", &a.y); // masukan nilai
+	puts("\n");
+	printf("Titik B\n\tKoordinat x\t : ");
+	scanf("%d", &b.x); // masukan nilai
+	printf("\tKoordinat y\t : ");
+	scanf("%d", &b.y); // masukan niai
+	puts("\n");
+
+	jarak = sqrt(pow((a.x - b.x), 2) + pow((a.y - b.y), 2)); // proses menghitung
+	getch();
+	printf("===============================\n");
+	printf("Jarak titik A dan titik B = %lf", jarak); // tampilan hasil
+	puts("\n");
+	return 0;
+}
