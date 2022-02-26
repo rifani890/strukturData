@@ -1,0 +1,29 @@
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+void tukar(double &a, double &b)
+{
+	double c;
+	c = a;
+	a = b;
+	b = c;
+}
+
+int main(int argc, char *argv[])
+{
+	double x, y;
+	cout << "\nSebelum ditukar\n";
+	cout << "Tentukan nilai A: ";
+	cin >> x;
+	cout << "Tentukan nilai B: ";
+	cin >> y;
+	cout << "\nSetelah ditukar\n";
+	tukar(x, y);
+	cout << "Nilai A: " << x << endl;
+	cout << "Nilai B: " << y << endl;
+
+	system("PAUSE");
+	return EXIT_SUCCESS;
+}
