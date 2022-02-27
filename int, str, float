@@ -12,6 +12,6 @@ int main()
 		 << endl;
 	cout << "Nim  Mahasiswa :" << NIM_Mahasiswa << endl;
 	cout << "Nama Mahasiswa :" << Nama_Mahasiswa << endl;
-	cout << "Kode kelas     :" << Ipk
-		 << endl;
+	cout << "IPK :" << Ipk
+		<< akhir;
 }
