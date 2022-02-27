@@ -4,14 +4,14 @@ using namespace std;
 int main()
 {
 
-	int NIM_Mahasiswa = 211181;
-	string Nama_Mahasiswa = "Rifani";
-	float Ipk = 3.34;
+   int NIM_Mahasiswa = 211181;
+   string Nama_Mahasiswa = "Rifani";
+   float Ipk = 3.34;
 
-	cout << "\nData Nilai Mahasiswa Universitas Primagraha"
-		 << endl;
-	cout << "Nim  Mahasiswa :" << NIM_Mahasiswa << endl;
-	cout << "Nama Mahasiswa :" << Nama_Mahasiswa << endl;
-	cout << "IPK :" << Ipk
-		<< akhir;
+   cout << "\nData Nilai Mahasiswa Universitas Primagraha"
+        << endl;
+   cout << "Nim  Mahasiswa\t: " << NIM_Mahasiswa << endl;
+   cout << "Nama Mahasiswa\t: " << Nama_Mahasiswa << endl;
+   cout << "IPK \t\t: " << Ipk
+        << endl;
 }
