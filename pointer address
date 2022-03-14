@@ -1,0 +1,17 @@
+// membuat pointer
+#include <iostream>
+using namespace std;
+int main()
+{
+    string *nama = new string;
+    int *nim = new int;
+    cout << "Masukkan nama anda : ";
+    cin >> *nama;
+    cout << "Masukkan NIM anda  : ";
+    cin >> *nim;
+    cout << "Nama = " << *nama << endl;
+    cout << "NIM  = " << *nim << endl;
+    cout << "Alamat address nama : " << nama << endl;
+    cout << "Alamat address nim  : " << nim << endl;
+    return 0;
+}
